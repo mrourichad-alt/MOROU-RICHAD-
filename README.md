@@ -32,3 +32,41 @@
   <div id="root"></div>
   
   <script type="module">var Hc=Object.create;var{getPrototypeOf:$c,defineProperty:zl,getOwnPropertyNames:Wc}=Object;var Qc=Object.prototype.hasOwnProperty;var vt=(e,t,n)=>{n=e!=null?Hc($c(e)):{};let r=t||!e||!e.__esModule?zl(n,"default",{value:e,enumerable:!0}):n;for(let l of Wc(e))if(!Qc.call(r,l))zl(r,l,{get:()=>e[l],enumerable:!0});return r};var ur=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports);var Kc=(e,t)=>{for(var n in t)zl(e,n,{get:t[n],enumerable:!0,configurable:!0,set:(r)=>t[n]=()=>r})};var qc=(e,t)=>()=>(e&&(t=e(e=0)),t);var dn=ur((ad)=>{var cn=Symbol.for("react.element"),Yc=Symbol.for("react.portal"),Xc=Symbol.for("react.fragment"),Gc=Symbol.for("react.strict_mode"),Jc=Symbol.for("react.profiler"),Zc=Symbol.for("react.provider"),jc=Symbol.for("react.context"),bc=Symbol.for("react.forward_ref"),ed=Symbol.for("react.suspense"),td=Symbol.for("react.memo"),nd=Symbol.for("react.lazy"),bo=Symbol.iterator;function rd(e){if(e===null||typeof e!=="object")return null;return e=bo&&e[bo]||e["@@iterator"],typeof e==="function"?e:null}var nu={isMounted:function(){return!1},enqueueForceUpdate:function(){},enqueueReplaceState:function(){},enqueueSetState:function(){}},ru=Object.assign,lu={};function Rt(e,t,n){this.props=e,this.context=t,this.refs=lu,this.updater=n||nu}Rt.prototype.isReactComponent={};Rt.prototype.setState=function(e,t){if(typeof e!=="object"&&typeof e!=="function"&&e!=null)throw Error("setState(...): takes an object of state variables to update or a function which returns an object of state variables.");this.updater.enqueueSetState(this,e,t,"setState")};Rt.prototype.forceUpdate=function(e){this.updater.enqueueForceUpdate(this,e,"forceUpdate")};function iu(){}iu.prototype=Rt.prototype;function Il(e,t,n){this.props=e,this.context=t,this.refs=lu,this.updater=n||nu}var Rl=Il.prototype=new iu;Rl.constructor=Il;ru(Rl,Rt.prototype);Rl.isPureReactComponent=!0;var eu=Array.isArray,ou=Object.prototype.hasOwnProperty,Ml={current:null},uu={key:!0,ref:!0,__self:!0,__source:!0};function au(e,t,n){var r,l={},i=null,o=null;if(t!=null)for(r in t.ref!==void 0&&(o=t.ref),t.key!==void 0&&(i=""+t.key),t)ou.call(t,r)&&!uu.hasOwnProperty(r)&&(l[r]=t[r]);var u=arguments.length-2;if(u===1)l.children=n;else if(1<u){for(var a
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> MOROU RICHAD  — Studio créatif.</title>
+  <meta name="description" content="Agence web minimaliste inspirée par Linear et Vercel. On conçoit des vitrines ultra-rapides, élégantes et orientées résultats pour les marques ambitieuses." />
+  <style>
+    :root { --accent: #0e0e10; --accent-fg: #ffffff; --style: minimal; }
+    body { font-family: ui-sans-system, system-ui, -apple-system, sans-serif; margin:0; background:#fcfcf9; color:#0e0e10; }
+    header { display:flex; justify-content:space-between; padding:20px 32px; border-bottom:1px solid #eceae6; }
+    .hero { padding:80px 32px; max-width:1280px; margin:0 auto; }
+    .hero h1 { font-size: clamp(32px, 6vw, 64px); line-height:0.92; letter-spacing:-0.04em; max-width:14ch; }
+    .hero h1 span { display:block; }
+    .btn { display:inline-flex; height:44px; padding:0 24px; align-items:center; justify-content:center; border-radius:999px; background:var(--accent); color:var(--accent-fg); text-decoration:none; font-weight:500; }
+    /* Style: minimal — Épuré & système */
+    /* Brand:  MOROU RICHAD  */
+  </style>
+</head>
+<body>
+  <header>
+    <strong> MOROU RICHAD </strong>
+    <span>STUDIO 2025 • MINIMAL</span>
+  </header>
+  <section class="hero">
+    <h1>
+      <span>Studio créatif.</span>
+      <span style="opacity:0.6; font-weight:400;">Pas juste qui existent.</span>
+    </h1>
+    <p style="max-width:48ch; margin-top:24px; opacity:0.7; line-height:1.5;">Agence web minimaliste inspirée par Linear et Vercel. On conçoit des vitrines ultra-rapides, élégantes et orientées résultats pour les marques ambitieuses.</p>
+    <div style="margin-top:32px;">
+      <a class="btn" href="#contact">Démarrer un projet</a>
+    </div>
+  </section>
+  <!-- Export généré depuis  MOROU RICHAD  | Couleur: #0e0e10 | Style: minimal -->
+  <!-- Hébergement: Vercel / Netlify / GitHub Pages - voir instructions dans l'app -->
+</body>
+</html>
